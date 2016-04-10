@@ -1,0 +1,53 @@
+
+         #repro {
+         float: left;
+         background-color: #0A3C6F;
+         padding:5px;
+         border-radius:12px;
+         
+}  
+   
+#albumcover {
+        float:left;
+	width:100px;
+	height:100px;
+	border-radius:13px;
+	background:url("http://3.bp.blogspot.com/_ug5srv4OwuQ/TT2enrappCI/AAAAAAAADPE/_fItXfuvx-U/s1600/sinCaratula300.gif");
+	background-size:100%;
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.2);
+}
+
+#rotacion {
+        float:right;
+	width:119px;
+	height: 120px;
+	background-image: url(https://lh3.googleusercontent.com/-Fhzg9yJRR7A/VwltsOPz4fI/AAAAAAAABso/FLTj50VOL6QXj8GL2RJKBPfyT4J0PPAjA/h120/compact_disc_PNG8747%2Bcopy.png);
+	-webkit-animation:rotate 10s infinite linear;
+    -moz-animation:rotate 10s infinite linear;
+    -o-animation:rotate 10s infinite linear;
+    -ms-animation:rotate 10s infinite linear;
+ }
+ @-webkit-keyframes rotate{
+ 	0%{-webkit-transform:rotateZ(-2500deg);
+ 	}
+    100%{-webkit-transform:rotateZ(0deg);	
+    }
+ }  
+ @-moz-keyframes rotate{
+ 	0%{-moz-transform:rotateZ(-2500deg);
+ 	}
+    100%{-moz-transform:rotateZ(0deg);	
+    } 
+ }   
+  @-o-keyframes rotate{
+ 	0%{-o-transform:rotateZ(-2500deg);
+ 	}
+    100%{-o-transform:rotateZ(0deg);	
+    } 
+ }
+  @-ms-keyframes rotate{
+ 	0%{-ms-transform:rotateZ(-2500deg);
+ 	}
+    100%{-ms-transform:rotateZ(0deg);	
+    } 
+ }   
